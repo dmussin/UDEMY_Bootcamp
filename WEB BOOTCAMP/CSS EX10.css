@@ -1,0 +1,27 @@
+body {
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	font-family: 'Source Sans Pro';
+
+}
+
+div.date {
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 3px;
+
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 30px ;
+}
+
+#bordered {
+	border-left: 4px solid #bdc3c7;
+	padding-left: 0.5%;
+}
+
+hr.new {
+	border: 1px solid #bdc3c7;
+}

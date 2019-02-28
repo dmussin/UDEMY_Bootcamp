@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdowns and Radio Buttons</title>
+</head>
+<body>
+
+<p>Do you prefer cats or dogs?</p>
+
+<form>
+
+   <label for="dogs">Dogs:</label>
+	<input id="dogs" type="radio" name="petChoice" value="DOG">
+	<br>
+	<label for="cats">Cats: </label>
+    <input id="cats" type="Radio" name="petChoice" value="CAT">
+
+<p>Whats your favorite color?</p>
+    <select name="color">
+    	<option>Red</option>
+    	<option>Orange</option>
+    	<option>Yellow</option>
+    </select>
+
+
+    <p>Whats your current mood?</p>
+    <select name="mood">
+    	<option value="happy">:)</option>
+    	<option value="sad">😒</option>
+    	<option>🤓</option>
+    </select>
+
+    <button>Go!</button>
+
+    <input type="text">
+
+    <br>
+
+    <textarea name="paragraph" rows="10" cols="50"></textarea>
+
+</form>
+
+
+<h2>---------------------------------------------------------</h2>
+<p>EX creation the form</p>
+<h2>---------------------------------------------------------</h2>
+
+
+<h1>Register</h1>
+
+<form>
+	<label for="FName">First Name:</label>
+	<input id="FName" type="text" placeholder="John" required>
+
+	<label for="LName">Last Name:</label>
+	<input id="LName" type="text" placeholder="Smith" required>
+
+	
+<div>
+	<label for="Male">Male</label>
+	<input id="Male" type="radio" name="gender" value="Male">
+
+	<label for="Female">Female</label>
+	<input id="Female" type="radio" name="gender" value="Female">
+
+	<label for="Other">Other</label>
+	<input id="Other" type="radio" name="gender" value="Other">
+</div>
+     
+<div>
+    <label for="email">Email:</label>
+    <input id="email" type="email"  name="email" placeholder="your email" required>
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="password" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters">
+</div>
+
+<div>
+    <label for="birthday">Birthday:</label>
+    <select name="date">
+    	<option>date</option>
+    	<option value="1">1</option>
+    	<option value="2">2</option>
+    	<option value="3">3</option>
+    </select>
+
+    <select name="month">
+    	<option>month</option>
+    	<option value="Jan">January</option>
+    	<option value="Jul">July</option>
+    	<option value="Dec">December</option>
+    </select>
+
+    <select name="year">
+    	<option>year</option>
+    	<option value="1991">1991</option>
+    	<option value="2001">2001</option>
+    	<option value="2019">2019</option>
+    </select>
+</div>
+
+<div>
+<label for="terms">I agree to the terms and conditions</label>
+<input id="terms" type="checkbox">
+
+</div> 
+
+<input type="submit">
+
+</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+
+	background: url(https://image.freepik.com/free-psd/abstract-background-design_1297-87.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1	{
+	color: purple;
+}
+
+li{
+	color:orange;
+}
+
+h3 {
+	background: #3498db;
+	color: black;
+}

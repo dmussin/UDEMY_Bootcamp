@@ -2,6 +2,10 @@ body {
 	border: 20px solid #bdc3c7;
 	padding: 20px;
 	font-family: 'Source Sans Pro';
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+
 
 }
 
@@ -24,4 +28,8 @@ h1 {
 
 hr.new {
 	border: 1px solid #bdc3c7;
+}
+
+.post {
+	margin-bottom: 20px;
 }
